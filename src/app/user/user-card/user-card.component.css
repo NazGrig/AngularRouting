@@ -1,0 +1,24 @@
+.user-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.todo-list {
+    margin-top: 10px;
+    margin-left: -70px;
+    margin-right: -70px;
+}
+
+.todo-list p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.todo-list h2 {
+    text-align: center;
+}

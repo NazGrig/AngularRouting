@@ -1,0 +1,9 @@
+<div class="user-card" (click)="handleClick()">
+{{user?.id}}, {{user?.name}}, {{user?.todoList?.values?.length}}
+<div class="todo-list"  *ngIf="showTodoList">
+    <h2>Todo List</h2>
+    <p *ngIf="!user?.todoList?.values?.length">No Item</p>
+    <app-todo-card *ngFor="let todo of user?.todoList?.values" [todo]='todo'></app-todo-card>
+</div>
+
+</div>

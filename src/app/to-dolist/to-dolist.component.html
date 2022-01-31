@@ -1,0 +1,3 @@
+<h1>Todo List</h1>
+<p *ngIf="!list.values.length">No Items</p>
+<app-todo-card *ngFor="let todo of list.values" [todo]="todo"></app-todo-card>
